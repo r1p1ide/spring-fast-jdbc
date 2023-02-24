@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "3a685a50-3dd5-498b-b117-6a902c12b0d7",
+		"name": "spring-fast-jdbc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/purchase/insert",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product\":\"Spring быстро\",\n    \"price\":2000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/purchase/insert",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"purchase",
+						"insert"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/purchase/get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/purchase/get",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"purchase",
+						"get"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

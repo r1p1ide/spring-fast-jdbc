@@ -8,3 +8,6 @@
 
 #### 1. jdbcTemplate.query(String sql, RowMapper rowMapper) with a custom RowMapper;
 #### 2. jdbcTemplate.update(String sql, Object... args).
+
+# Updates
+### Now PostgreSQL is used instead of H2. Added appropriate local database connection settings to application.properties.
